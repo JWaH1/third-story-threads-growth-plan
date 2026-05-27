@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "third-story-threads-growth-plan",
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
